@@ -1,14 +1,14 @@
 {
-  "name": "webpack-sentry-plugin",
-  "version": "2.0.3",
-  "description": "Webpack plugin to upload source maps to Sentry",
+  "name": "webpack-del-file-plugin",
+  "version": "0.0.1",
+  "description": "Webpack删除文件插件",
   "engines": {
     "node": ">= 6"
   },
   "keywords": [
-    "sentry",
+    "file",
     "webpack",
-    "upload",
+    "del",
     "source-map"
   ],
   "main": "dist/index.js",
@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:40thieves/webpack-sentry-plugin.git"
+    "url": "git@github.com:qq865738120/webpack-sentry-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/40thieves/webpack-sentry-plugin/issues"
+    "url": "https://github.com/qq865738120/webpack-sentry-plugin/issues"
   },
-  "homepage": "https://github.com/40thieves/webpack-sentry-plugin",
+  "homepage": "https://github.com/qq865738120/webpack-sentry-plugin",
   "jest": {
     "notify": true,
     "roots": [
@@ -45,9 +45,7 @@
     ]
   },
   "dependencies": {
-    "es6-promise-pool": "^2.5.0",
-    "request": "^2.85.0",
-    "request-promise": "^4.2.2"
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
